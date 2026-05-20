@@ -1,5 +1,7 @@
 .like-icon {
   display: block;
+  inline-size: 39px;
+  block-size: 36px;
   transform-origin: center;
 }
 
@@ -19,7 +21,6 @@
   opacity: 0;
 }
 
-/* hover */
 .card__icon-button:hover .like-icon .core {
   fill: var(--contour-color);
   transition-delay: 0s;
@@ -30,7 +31,6 @@
   transition-delay: 0.05s;
 }
 
-/* active */
 .card__icon-button:active .like-icon .core {
   fill: var(--animation-fill-color);
   transition-delay: 0s;
@@ -41,7 +41,6 @@
   transition-delay: 0.05s;
 }
 
-/* liked */
 .like-icon.is-liked .core {
   fill: var(--animation-fill-color);
   transition-delay: 0s;
